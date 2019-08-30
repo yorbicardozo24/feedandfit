@@ -1,0 +1,32 @@
+.panel{
+    border: none !important;
+    text-align: center;
+}
+.panel-icon{
+    padding: 30px;
+    width: 40%;
+}
+
+.panel-icon i{
+    font-size: 40px;
+    color: #fff;
+}
+
+.bg-blue{
+    background-color: #7ACBEE;
+}
+.bg-yellow{
+    background-color: #FDD761;
+}
+.bg-green{
+    background-color: #66bb6a;
+}
+.bg-purpure{
+    background-color: #8e24aa;
+}
+.panel-value{
+    width: 60%;
+}
+.panel-value p{
+    color: #777;
+}

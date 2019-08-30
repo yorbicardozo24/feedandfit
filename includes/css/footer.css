@@ -1,0 +1,10 @@
+.main-footer{
+    border-top-color: #d2d6de;
+    background: #fff;
+    color: #444;
+    padding: 15px;
+    border-top: 1px solid #d2d6de;
+    margin-left: 230px;
+    max-height: 51px;
+    min-height: 51px;
+}

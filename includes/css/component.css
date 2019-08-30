@@ -1,0 +1,136 @@
+*{
+	font-family: sans-serif;
+}
+
+td, th{
+	text-align: center;
+}
+.circle{
+	width: 20px;
+	height: 20px;
+	background: red;
+	text-align: center;
+	border-radius: 22px;
+	display: inline-block;
+}
+.mac{
+	font-size: 40px;
+	margin-left: 14%;
+	margin-top: 2%;
+	position: absolute;
+}
+.navbar{
+  position: fixed;
+  z-index: 300;
+  width: 100%;
+  border-radius: 0;
+  border-bottom: 1px solid #DFE0E0;
+}
+nav {
+	color: #47a3da;
+}
+
+nav a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+/* General styles for all menus */
+.cbp-spmenu {
+	background: #2a3542;
+	position: fixed;
+}
+
+.cbp-spmenu h3 {
+	color: #afdefa;
+	font-size: 1.9em;
+	padding: 20px;
+	margin: 0;
+	font-weight: 300;
+	background: #0d77b6;
+}
+
+.cbp-spmenu a {
+	display: block;
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+.cbp-spmenu a:hover {
+	background: #258ecd;
+}
+
+.cbp-spmenu a:active {
+	background: #afdefa;
+	color: #47a3da;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	width: 250px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+	border-bottom: 1px solid #258ecd;
+	padding: 1em;
+}
+
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+	left: -250px;
+}
+
+
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: 0px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+	right: 0px;
+}
+
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+/* Example media queries */
+
+@media screen and (max-height: 26.375em){
+
+	.cbp-spmenu-vertical {
+		font-size: 90%;
+		width: 190px;
+	}
+
+	.cbp-spmenu-push-toleft {
+		left: -190px;
+	}
+
+
+}
